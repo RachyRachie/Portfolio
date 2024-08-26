@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
 	margin: 0;
-	padding; 0;
+	padding: 0;
 	box-sizing: border-box;
 	text-decoration: none;
 }
@@ -14,8 +14,9 @@ html{
 	margin: auto;
 }
 ::selection{
+background-color: pink;
+}
 
-background-color: pink;}
 /* navbar styling */
 .navbar {
 	font-family: 'Ubuntu', sans-serif;
@@ -260,7 +261,7 @@ content: "What I provide";
 	transition: all 0.3s ease;
 }
 .services .serv-content .card:hover .box{
-	tran sform: scale(1.05);
+	transform: scale(1.05);
 }
 .services .serv-content .card i{
 	font-size: 50px;
