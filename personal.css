@@ -13,6 +13,9 @@ html{
 	padding: 0 80px;
 	margin: auto;
 }
+::selection{
+
+background-color: pink;}
 /* navbar styling */
 .navbar {
 	font-family: 'Ubuntu', sans-serif;
